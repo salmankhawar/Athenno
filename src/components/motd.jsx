@@ -32,7 +32,7 @@ const [motd,setMotd] = useState(nmotd[0].motd)
             <div className="max-w-xl lg:max-w-lg">
               <h2 className="text-2xl font-bold tracking-tight text-white sm:text-4xl">Today</h2>
               <div className="mt-6 flex max-w-md gap-x-4">
-                <h3 onDoubleClick={() => setMotd('')} className="text-2xl tracking-tight text-white sm:text-4xl">{motd}</h3>
+                <h3 onDoubleClick={() => setMotd('')} className="text-2xl tracking-tight text-red-600 sm:text-4xl">{motd}</h3>
               </div>
             </div>
           </div>
